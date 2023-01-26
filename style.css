@@ -135,8 +135,8 @@ body{
         height: 435px;
         left: 0px;
         top: 0px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 0;
+        margin-left: auto; 
     }
     
     .pre_btn{
