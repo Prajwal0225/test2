@@ -1,0 +1,220 @@
+
+body{
+    background-color: black;
+}
+.pre_heading{
+    width: 23.813rem;
+    height: 2.438rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 2rem;
+    line-height: 2.438rem; 
+    margin: 12.25rem auto 6.688rem auto;
+    margin-bottom: 5.625rem;
+    color: #FFFFFF;
+}
+
+.main_div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5.938rem;
+    margin-right: 5.938rem;
+    gap: 28.125rem;
+    margin-bottom: 10.438rem;
+}  
+
+.pre_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.375rem 1.938rem;
+    gap: 0.625rem;
+    width: 11.188rem;
+    height: 1.938rem;
+    background: #000000;
+    border: 0.044rem solid #FFFFFF;
+    border-radius: 1.5rem;
+}
+
+
+.pre_textbtn{
+    height: 1.188rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.188rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 7.313rem;
+}
+.pre_btn:active{
+    transform: scale(1.05) translateZ(0);
+}
+
+.pre_textbtn:hover{
+    transform: scale(1.03) translateZ(0);
+}
+
+.pre_image{
+    background-color: azure;
+    height: 18.063rem;
+    width: 31.125rem;
+    border-radius: 1.563rem;    
+}
+.pre_image:hover{
+    transform: scale(1.03) translateZ(0);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.pre_para1 {
+    height: 1.375rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    letter-spacing: 0.555em;
+    color: #FFFFFF;
+    text-decoration: underline #DF0404 0.188rem;
+    text-underline-position: under;
+    margin-bottom: 1.313;
+    width: 4.438rem;
+}
+
+.pre_para2{
+    height: 3.938rem;
+    width: 23.188rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.313rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 0.313rem;
+    margin-bottom: 5.188rem;
+}
+
+.pre_mheading{
+    width: 100%;
+    height: 2.75rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+
+/* mobile view */
+
+
+@media (max-width: 480px) {
+    .pre_heading{
+        width: 181px;
+        height: 58px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .main_div{
+        position: relative;
+        width: 300px;
+        height: 435px;
+        left: 0px;
+        top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .pre_btn{
+        padding: 0.375rem 1.938rem;
+        width: 11.188rem;
+        height: 1.938rem;
+        background: #000000;
+        border: 0.044rem solid #FFFFFF;
+        border-radius: 1.5rem;
+        position: absolute;
+        bottom: -50px;
+    }
+    
+    .pre_content{
+        position: absolute;
+        width: 292px;
+        height: 185px;
+        bottom: 49px;
+        margin-top:0px ;
+    }
+    
+    .pre_textbtn{
+        width: 117px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #C4C4C4;
+    }
+    
+    
+    .pre_image{
+        background-color: azure;
+        height: 203px;
+        width: 292px;
+        border-radius: 25px;  
+        position: absolute;
+        top:0px;  
+    }
+    
+    .pre_para1 {
+        width: 4.73px;
+        height: 27px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.555em;
+        color: #FFFFFF;
+        text-decoration: underline #DF0404 0.188rem;
+        text-underline-position: under;
+        margin-bottom: 21px;
+    }
+    
+    .pre_para2{
+        width: 292px;
+        height: 57px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 15px;
+    }
+    
+    .pre_mheading{
+        width: 100%;
+        height: 29px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #FFFFFF;
+    }
+    
+}
