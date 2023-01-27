@@ -118,7 +118,7 @@ body{
 
 @media (max-width: 480px) {
     body{
-        padding: 30px; 
+        padding: 1.875rem; 
     }
     .pre_heading{
         width: 11.313rem;
