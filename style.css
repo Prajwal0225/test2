@@ -1,30 +1,153 @@
+body {
+    background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
-body{
+#title {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
     background-color: black;
 }
-.pre_heading{
-    width: 23.813rem;
-    height: 2.438rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700; 
-    font-size: 2rem;
-    line-height: 2.438rem; 
-    margin: 12.25rem auto 6.688rem auto;
-    margin-bottom: 5.625rem;
-    color: #FFFFFF;
+
+.title {
+    /* position: absolute;
+    left: 0px;
+    top: 0px; */
+    width: 100vw;
+    height: 100vh;
 }
 
-.main_div{
+.img1 {
+    /* margin: 4.8rem 7rem 5rem; */
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    /* color: #fff; */
+    width: 64px;
+    height: 22px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.is {
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+.fa-instagram {
+    margin-left: 12rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 813px;
+    position: absolute;
+    width: 1077px;
+    height: 47.64px;
+    left: 93px;
+    top: 60px;
+}
+
+.info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.info p {
+    width: 788px;
+    height: 89px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    /* margin-left: 13rem; */
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.info .btn {
+    padding: 6px 23px;
+    gap: 10px;
+    width: 189px;
+    height: 31px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+/* Prajwal */
+.Previous_Magazines {
+    margin-top: 200px;
+  }
+  
+  .pre_heading {
+    width: 23.813rem;
+    height: 2.438rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.438rem;
+  
+    margin: 12.25rem auto 6.688rem auto;
+    margin-bottom: 5.625rem;
+    color: #ffffff;
+  }
+  
+  .main_div {
     display: flex;
     flex-direction: row;
     margin-left: 5.938rem;
     margin-right: 5.938rem;
     gap: 28.125rem;
     margin-bottom: 10.438rem;
-}  
-
-.pre_btn{
+  }
+  
+  .pre_btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,60 +157,63 @@ body{
     width: 11.188rem;
     height: 1.938rem;
     background: #000000;
-    border: 0.044rem solid #FFFFFF;
+    border: 0.044rem solid #ffffff;
     border-radius: 1.5rem;
-}
-
-
-.pre_textbtn{
+  }
+  
+  .pre_textbtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 1.188rem;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 1.188rem;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     width: 7.313rem;
-}
-.pre_btn:active{
+  }
+  .pre_btn:active {
     transform: scale(1.05) translateZ(0);
-}
-
-.pre_textbtn:hover{
+  }
+  
+  .pre_textbtn:hover {
     transform: scale(1.03) translateZ(0);
-}
-
-.pre_image{
+  }
+  
+  .pre_image {
     background-color: azure;
     height: 18.063rem;
     width: 31.125rem;
-    border-radius: 1.563rem;    
-}
-.pre_image:hover{
+    border-radius: 1.563rem;
+  }
+  .pre_image:hover {
     transform: scale(1.03) translateZ(0);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-.pre_para1 {
+  }
+  
+  .pre_para1 {
     height: 1.375rem;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 300;
     font-size: 1.125rem;
     line-height: 1.375rem;
     letter-spacing: 0.555em;
-    color: #FFFFFF;
-    text-decoration: underline #DF0404 0.188rem;
+    color: #ffffff;
+    text-decoration: underline #df0404 0.188rem;
     text-underline-position: under;
     margin-bottom: 1.313;
     width: 4.438rem;
-}
-
-.pre_para2{
+  }
+  
+  .pre_para2 {
     height: 3.938rem;
     width: 23.188rem;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
@@ -95,134 +221,376 @@ body{
     color: rgba(255, 255, 255, 0.8);
     margin-top: 0.313rem;
     margin-bottom: 5.188rem;
-}
-
-.pre_mheading{
+  }
+  
+  .pre_mheading {
     width: 100%;
     height: 2.75rem;
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 2.25rem;
     line-height: 2.75rem;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+/* Vedant */
+.About-head {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+margin-bottom: 60px;
+  }
+  .About-content {
+    font-family: 'Roboto';
+font-style: italic;
+font-weight: 300;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #FFFFFF;
+
+  }
+  .container{
+    margin-left: 199px;
+    margin-right: 200px;
+  }
+
+
+  /* sakshi */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+
+#social-media {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.socialMedia {
+  color: #fff;
+  padding: 2.5rem;
+  /* display: grid; */
+}
+
+.social-head {
+  padding-bottom: 2rem;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.social-img {
+  width: 245px;
+  height: 167px;
+  border-radius: 23px;
+  border: 0.5px solid #fff;
+  display: inline-block;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 1.9rem 7.5rem 2rem 7.5rem;
+}
+
+.social-icon {
+  display: inline-block;
+}
+
+.social-icon-svg {
+  margin-bottom: -4px;
+}
+
+.name1 {
+  margin-left: 7px;
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.name2 {
+  font-size: 1.3rem;
+  margin-left: 8px;
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 1.3rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 
-
-
-/* mobile view */
-
-
-@media (max-width: 480px) {
-    body{
-        padding: 1.875rem; 
+@media screen and (max-width:480px) {
+    .navbar{
+        display: flex;
+        width: 60px;
     }
-    .pre_heading{
+
+    .collapse{
+        margin-left: 10%;
+        position: absolute;
+        left: 10rem;
+        bottom: 1%;
+    }
+
+    .is{
+        margin: 0;
+    }
+
+    nav {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        height: 47.64px;
+        width: 100%;
+    }
+
+    .fa-instagram {
+        font-size: 20px;
+    }
+    
+    .fa-linkedin{
+        font-size: 20px;
+    }
+
+    .img1 {
+        position: absolute;
+        width: 113px;
+        height: 32px;
+        right: 10%;
+        top: 5%;
+    }
+
+
+    .fa-instagram {
+        margin-left: 0;
+    }
+
+    .info h1{
+        font-size: 30px;
+        padding: 0;
+        line-height: 29px;
+    }
+
+    .info p {
+        width: 320px;
+        font-size: 16px;
+        margin: 0;
+
+    }
+
+    .info .btn{
+        margin-top: 20%;
+        margin-bottom: 125px;
+    }
+
+    body {
+        padding: 0rem;
+      }
+    
+      .pre_heading {
         width: 11.313rem;
         height: 3.625rem;
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 700;
         font-size: 1.5rem;
         line-height: 1.813rem;
         text-align: center;
-        color: #FFFFFF;
-    }
+        color: #ffffff;
+      }
     
-    .main_div{
+      .main_div {
         position: relative;
         width: 18.75rem;
         height: 27.188rem;
         left: 0px;
         top: 0px;
         margin-right: auto;
-        margin-left: auto; 
-        
-        
-    }
+        margin-left: auto;
+      }
     
-    .pre_btn{
+      .pre_btn {
         padding: 0.375rem 1.938rem;
         width: 11.188rem;
         height: 1.938rem;
         background: #000000;
-        border: 0.044rem solid #FFFFFF;
+        border: 0.044rem solid #ffffff;
         border-radius: 1.5rem;
         position: absolute;
         bottom: -50px;
-    }
+      }
     
-    .pre_content{
+      .pre_content {
         position: absolute;
         width: 18.25rem;
         height: 11.563rem;
         bottom: 3.063rem;
-        margin-top:0px ;
-    }
+        margin-top: 0px;
+      }
     
-    .pre_textbtn{
+      .pre_textbtn {
         width: 100%;
         height: 1.188rem;
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 500;
         font-size: 1rem;
         line-height: 1.188rem;
-        color: #C4C4C4;
-    }
+        color: #c4c4c4;
+      }
     
-    
-    .pre_image{
+      .pre_image {
         background-color: azure;
         height: 12.688rem;
         width: 18.25rem;
-        border-radius: 1.563rem;  
+        border-radius: 1.563rem;
         position: absolute;
-        top:0px;  
-    }
-    .pre_image:hover{
-        transform: scale(1.00) translateZ(0);
+        top: 0px;
+      }
+      .pre_image:hover {
+        transform: scale(1) translateZ(0);
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    }
-    .pre_para1 {
+      }
+      .pre_para1 {
         width: 4.73px;
         height: 1.688rem;
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 300;
         font-size: 1.125rem;
         line-height: 1.375;
         letter-spacing: 0.555em;
-        color: #FFFFFF;
-        text-decoration: underline #DF0404 0.188rem;
+        color: #ffffff;
+        text-decoration: underline #df0404 0.188rem;
         text-underline-position: under;
         margin-bottom: 1.313rem;
-    }
+      }
     
-    .pre_para2{
+      .pre_para2 {
         width: 18.25rem;
         height: 3.563rem;
-        font-family: 'Roboto';
+        font-family: "Roboto";
         font-style: normal;
         font-weight: 400;
         font-size: 1rem;
         line-height: 1.188rem;
         color: rgba(255, 255, 255, 0.8);
         margin-bottom: 0.938rem;
-    }
+      }
     
-    .pre_mheading{
+      .pre_mheading {
         width: 100%;
         height: 1.813rem;
-        font-family: 'Inter';
+        font-family: "Inter";
         font-style: normal;
         font-weight: 700;
         font-size: 1.5rem;
         line-height: 1.813rem;
-        color: #FFFFFF;
-    }
+        color: #ffffff;
+      }
     
+      /* sakshi */
+    
+      #social-media {
+        padding-top: 3%;
+      }
+    
+      .socialMedia {
+        color: #fff;
+        padding: 0;
+      }
+    
+      .social-head {
+        font-size: 24px;
+        width: 188px;
+        margin: auto;
+      }
+    
+      .box1 {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .box {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 7%;
+      }
+    
+    .border {
+      border: 1px solid white;
+    }
+
+
+    /* Vedant */
+    .About-head {
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+margin-left:30px;
+margin-right: 30px;
+color: #FFFFFF;
+margin-bottom: 30px;
+      }
+
+
+      .About-content {
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+margin-left: 30px;
+margin-right: 30px;
+      }
+
+      .container{
+        margin-left: 25px;
+        margin-right: 25px;
+
+      }
+      .not_in_mobile{
+        display: none;
+      }
 }
