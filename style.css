@@ -66,6 +66,7 @@ nav {
 }
 
 .info {
+  margin-top:68px;;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -411,7 +412,7 @@ nav {
 
 
 .fa-instagram {
-    margin-left: 0;
+    margin-left: 30px;
 }
 
 .info img {
@@ -642,7 +643,7 @@ margin-right: 30px;
   /* Harsh */
   .navbar {
     display: flex;
-    width: 250px;
+    width: 250px; 
 }
 
 .collapse {
