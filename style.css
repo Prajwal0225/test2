@@ -145,6 +145,10 @@ cursor: pointer;
   padding-bottom: 25px;
 }
 
+.main_img{
+  margin-top: 80px;
+}
+
 /* Prajwal */
 .Previous_Magazines {
   margin-top: 200px;
@@ -168,7 +172,7 @@ cursor: pointer;
   flex-direction: row;
   margin-left: 5.938rem;
   margin-right: 5.938rem;
-  gap: 28.125rem;
+  gap: 38.125rem;
   margin-bottom: 10.438rem;
 }
 
@@ -421,6 +425,11 @@ line-height: 17px;
     background-color: black;
     color: white;
 }
+
+.main_img{
+  margin-top: 25px;
+}
+
 
   body {
       padding: 0rem;
