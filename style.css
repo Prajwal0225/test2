@@ -350,11 +350,12 @@ margin-bottom: -4px;
 margin-left: 7px;
 margin-top: 15px;
 display: inline-block;
-font-family: "Inter";
+font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 20px;
+color: #fff;
 }
 
 .name2 {
@@ -367,6 +368,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 20px;
+color: #fff;
 }
 
 .footer {
@@ -449,6 +451,13 @@ nav {
 
   body {
       padding: 0rem;
+    }
+
+    .background-triangle{
+      position: fixed;
+     display: none;
+    
+    z-index:-1;
     }
   
     .pre_heading {
@@ -713,6 +722,19 @@ nav {
 .info .btn {
     margin-top: 6%;
     padding: 7px 5px;
+}
+
+/* Sakshi */
+.socialMedia {    
+  color: #fff;
+  padding:0;
+  padding-top: 2%;
+  /* display: grid; */
+  width: 100vw;
+}
+
+.box{
+  padding-right:5.5rem ;
 }
 
 } 
