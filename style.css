@@ -6,6 +6,16 @@ box-sizing: border-box;
 scroll-behavior: smooth;
 }
 
+#loading{
+  position:fixed;
+  width:100%;
+  height: 100vh;
+  background:#FFFFFF
+  url('https://example.gif')
+  n-repeat center;
+  z-index: 99999;
+}
+
 .background-triangle{
   position: fixed;
  width: 1234.48px;
